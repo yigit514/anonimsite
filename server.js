@@ -11,7 +11,7 @@ const server = http.createServer(app);
 const io = socketIo(server);
 
 // MongoDB bağlantısı
-mongoose.connect('mongodb://localhost:27017/chatApp', {
+mongoose.connect('mongodb+srv://dreelirion:nnJQuyjnyHXFzJAz@cluster0.hdh1gtc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
